@@ -2,7 +2,7 @@
 
 // Mendefinisikan class Constants yang berisi konstanta-konstanta yang dibutuhkan
 // BASEURL merupakan konstanta yang berisi alamat url dari root folder
-define('BASEURL', 'https://localhost/nebaraja-core');
+define('BASEURL', 'https://localhost/nebaraja');
 
 // Database
 // DB_HOST merupakan konstanta yang berisi alamat server database
