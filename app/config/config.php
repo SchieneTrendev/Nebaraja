@@ -2,7 +2,7 @@
 
 // Mendefinisikan class Constants yang berisi konstanta-konstanta yang dibutuhkan
 // BASEURL merupakan konstanta yang berisi alamat url dari root folder
-define('BASEURL', 'http://localhost/phpmvc/public');
+define('BASEURL', 'https://localhost/nebaraja-core');
 
 // Database
 // DB_HOST merupakan konstanta yang berisi alamat server database
@@ -12,4 +12,4 @@ define('DB_USER', 'root');
 // DB_PASS merupakan konstanta yang berisi password database
 define('DB_PASS', '');
 // DB_NAME merupakan konstanta yang berisi nama database
-define('DB_NAME', 'phpmvc');
+define('DB_NAME', 'nebaraja');
