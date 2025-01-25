@@ -5,7 +5,16 @@ class Controller{
     public function view($view, $data = []){
         // Memeriksa apakah file view yang dimaksud ada di dalam folder views
         // $view yang dimaksud adalah "home/index" yang berada pada file app\controllers\Home.php pada baris ke-8
-        require_once 'app/views/' . $view . '.php';
+
+        if (file_exists('app/views/' . $view . '.php')) {
+
+            require_once 'app/views/' . $view . '.php';
+            
+        } else {
+            http_response_code(404);
+            include('exceptions/404_view.php'); // provide your own HTML for the error page
+            die();
+        }
     }
 
     // Membuat method model dengan parameter model
